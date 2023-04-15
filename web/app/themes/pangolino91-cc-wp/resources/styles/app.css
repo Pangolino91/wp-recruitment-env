@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.banner {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #FCF5F3;
+}
+.menu-item {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header__button {
+    font-size: 11px;
+    background-color: rgb(236, 39, 104);
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 38px;
+    color: white;
+}
+@media all and (max-width: 500px) {
+    .nav-primary {
+        display: none !important;
+    }
+}
